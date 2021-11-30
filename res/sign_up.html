@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/body.css">
+    <title>Ro'yhatdan o'tish</title>
+</head>
+<body>
+<div class="container">
+  <h1>Ro'yhatdan o'tish</h1>
+  <p>
+    Quyidagilarni to'liq to'ldiring va O'tish tugmasini bosing.
+  </p>
+   <input type="text" placeholder="Ism" name="name"/>
+   <input type="text" placeholder="Familiya"/>
+   <input type="tel" placeholder="Telefon raqam" name="tel"/>
+   <input type="email" placeholder="E-mail" id="email"/>
+   <input type="text" placeholder="Manzil(Viloyat,Tuman,Shahar)"/>
+   <input type="text" placeholder="Yangi login"/>
+   <input type="password" placeholder="Parol"/>
+   <input type="password" placeholder="Parolni qayta kiriting"/>
+   <button>O'tish</button>
+   <p>
+     Siz avval ro'yhatdan o'tganmisiz?
+     Unda <a>Tizimga kiring</a>.
+   </p>
+</div>
+<footer>
+   CopyRight&copy;Mansurbek Ahmedov 2021
+   </footer>
+ <script>
+   let a = document.querySelector('a');
+   a.addEventListener('click', () => {
+     close(document)
+     open('../res/sign_in.html')
+   })
+ </script>
+</body>
+</html>

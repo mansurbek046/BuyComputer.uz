@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+ background-image: url('../img/background.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: bottom center;
+}
+.conta{
+  width: 90%;
+  background-color: #D4D4D4;
+  margin: auto;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+}
+ul li{
+  list-style: none;
+  padding-left: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: normal;
+  padding-top: 8px;
+}
+p{
+  color: #4F4F4F;
+  font-family: sans-serif;
+  font-weight: bold;
+  float: left;
+  margin-right: 15px;
+}
+img{
+  position: absolute;
+  width: 90%;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 250px;
+}
+.bor{
+  position: relative;
+  border: 2px solid #D4D4D4;
+  width: 90%;
+  margin: auto;
+  margin-left: 4%;
+  margin-top: 10px;
+  height: 226px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+button{
+  padding: 8px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-weight: bold;
+  outline: none;
+  margin: 20px 0;
+}
+button:last-child{
+  margin-right: 20px;
+  float: right;
+}
+button:last-child:active{
+  background-color: limegreen;
+  color: whitesmoke;
+}
+button:first-child:active{
+  background-color: #0113dc;
+  color: whitesmoke;
+}
+button:hover{
+  color: #D4D4D4;
+  background-color: white;
+}
+
+
+@media(min-width: 767px){
+  .conta{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+  }
+  img{
+    width: 30%;
+  }
+  .bor{
+    width: 92%;
+    margin-left: 3%;
+  }
+}
+
+
+.clr{
+  clear: both;
+}
+
+footer{
+  color: #D6D6D6;
+  font-family: sans-serif;
+  background-color: #585858;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 8px;
+}
+
+

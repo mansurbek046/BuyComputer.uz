@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css" media="all">
+      textarea{
+        width: 80%;
+        margin: auto;
+        display: block;
+        margin-top: 30px;
+        outline: none;
+        border: 2px solid #868686;
+        padding: 10px;
+        font-family: monospace;
+        font-weight: bold;
+        height: 100px;
+      }
+      textarea:hover{
+        border-color: #0113dc;
+      }
+      #h1{
+        padding-top: 0px;
+      }
+    </style>
+    
+    <link rel="stylesheet" href="../css/body.css">
+    <title>Murojat yuborish</title>
+</head>
+<body>
+  <div class="container">
+  <h1 id="h1">Murojat</h1>
+  <p>
+    Bu bo'lim orqali siz adminstratorga o'z murojatingizni yuborishingiz mumkin.
+  </p>
+  <input placeholder="E-mail" type="email" name="email" id="email"/>
+  <textarea placeholder="Bu yerga o'z murojatingizni yozing." id="murojat"></textarea>
+  <button>Yuborish</button>
+  <p></p>
+  </div>
+   <footer>
+     CopyRight&copy;Mansurbek Ahmedov 2021
+   </footer>
+   <script>
+     let mail=document.querySelector('input');
+let msg=document.querySelector('textarea');
+let button=document.querySelector('button');
+
+button.addEventListener('click',()=>{
+  if(mail.value=='' && msg.value==''){
+    alert('E-mail va Murojatni kiriting.');
+  }else if(mail.value==''){
+    alert('E-mailni kiriting.')
+  }else if(msg.value==''){
+    alert('Murojatni kiriting.')
+  }else{
+    alert('Yuborildi')
+  }
+});
+   </script>
+</body>
+</html>

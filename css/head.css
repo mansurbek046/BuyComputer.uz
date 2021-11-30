@@ -1,0 +1,147 @@
+body, h1, span, header,noscript{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: url('../img/background.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: bottom center;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  color: #C0C0C0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+span{
+  color: #9D9D9D;
+}
+
+nav{
+  background-color: #585858;
+}
+nav a{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #D6D6D6;
+  padding: 10px;
+  padding-left: 10px;
+  display: inline-block;
+}
+nav a:hover{
+  border-radius: none;
+  background-color: #444;
+  color: #EFEFEF;
+}
+nav a:active{
+  color: white;
+  background-color: #0113DC;
+}
+
+
+@media(min-width: 767px){
+  body, h1, span, header{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 50px;
+}
+}
+.imgone{
+  width: 30%;
+  float: right;
+}
+p{
+  padding-top: 20px;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #FFDF70;
+}
+
+footer{
+  color: #D6D6D6;
+  font-family: sans-serif;
+  background-color: #585858;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 8px;
+}
+.clr{
+  clear: both;
+}
+.cont{
+  width: 300px;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #565656;
+}
+.imgtwo{
+  width: 33%;
+  float: left;
+  margin-right: 10px;
+}
+.cont:last-child{
+  width: 300px;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #565656;
+}
+
+
+
+
+
+noscript{
+  /*background-color: #fff;*/
+  color: #7D02FF;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: lighter;
+}
+noscript span{
+  color: red;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
+noscript a{
+  color: #2609FF;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+noscript marquee{
+  background-color: #000;
+}
+
+.xarf ul li {
+  display: block;
+  float: left;
+  margin-left: 80px;
+  width: 150px;
+  height: 50px;
+  background: white;
+  text-align: center;
+  line-height: 40px;
+}
+.xarf ul li ul li{
+  display: none;
+  background-color: green;
+  border: 2px solid #1428FF;
+  
+}
+.xarf ul li:hover ul li{
+  display: block;
+}

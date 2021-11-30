@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      label{
+        width: 80%;
+        margin: auto;
+        display: block;
+        padding-top: 30px;
+        color: #868686;
+        font-family: sans-serif;
+        font-size: 18px;
+      }
+      select{
+        width: 80px;
+        float: right;
+        outline: none;
+        border: 1px solid #585858;
+        background-color: #585858;
+        border-radius: 1px;
+        color: #c0c0c0;
+        height: 25px;
+      }
+      select:active{
+        background-color: #0113dc;
+        color: white;
+        border-color: #0113dc;
+      }
+      textarea{
+        width: 80%;
+        margin: auto;
+        display: block;
+        margin-top: 30px;
+        outline: none;
+        border: 2px solid #868686;
+        padding: 10px;
+        font-family: monospace;
+        font-weight: bold;
+        height: 100px;
+      }
+      textarea:hover{
+        border-color: #0113dc;
+      }
+    </style>
+    <link rel="stylesheet" href="../css/body.css"/>
+    <title>E'lon berish</title>
+</head>
+<body>
+  <div class="container">
+  <h1>
+    E'lon berish
+  </h1>
+  <p>
+    Elon berish uchun quyidagilarni to'ldiring.
+  </p>
+  <input type="text" placeholder="Kompyuter modeli" id="model"/>
+  <input type="text" placeholder="Ekran olchami" id="display"/>
+  <input type="text" placeholder="Protsessor" id="protsessor"/>
+  <input type="text" placeholder="Ram" id="ram"/>
+  <input type="text" placeholder="HDD/SSD/vint" id="xotira"/>
+  <input type="text" placeholder="Batareya(yo'q/soat)" id="batareya"/>
+  <label>Garantiya
+  <select>
+    <option value="true">Bor</option>
+    <option value="folse">Yo'q</option>
+  </select>
+  </label>
+    <label>Holat
+      <select>
+        <option value="true">Yangi</option>
+        <option value="folse">Yahshi</option>
+      </select>
+    </label>
+  <input type="text" placeholder="Narxi" id="narx">
+  <input type="text" placeholder="Manzil(Viloyat,Tuman,Shahar)" id="manzil"/>
+  <textarea placeholder="Qo'shimcha ma'lumot" id="qmalumot"></textarea>
+  <button id="joylash">Joylash</button>
+  <p></p>
+  </div>
+  <footer>
+    CopyRight&copy;Mansurbek Ahmedov 2021
+  </footer>
+</body>
+</html>
